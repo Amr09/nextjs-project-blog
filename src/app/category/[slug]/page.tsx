@@ -8,7 +8,7 @@ export default async function Category({ params }: any) {
 
   return (
     <div>
-      <h1 class="mt-8 text-indigo-500">{slug}</h1>
+      <h1 className="mt-8 text-indigo-500">{slug}</h1>
       <CardList items={blogs} />
     </div>
   );

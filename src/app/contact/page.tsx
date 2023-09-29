@@ -10,7 +10,7 @@ export default function Contact() {
       </Head>
 
       <main>
-        <h1 class="mt-10">Contact Us</h1>
+        <h1 className="mt-10">Contact Us</h1>
         <ContactForm />
       </main>
     </div>

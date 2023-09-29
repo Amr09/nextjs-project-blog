@@ -7,7 +7,7 @@ export default async function Category({ params }: any) {
   const blog: any = await getBlogBySlug(slug);
 
   return (
-    <div class="mt-8" className={styles.container}>
+    <div className={`mt-8 ${styles.container}`}>
       <div className={styles.infoContainer}>
         <div className={styles.textContainer}>
           <h1 className={styles.title}>{blog.title}</h1>
